@@ -51,20 +51,24 @@ The L3SDKMarqueeView interface exposes also other two methods that allow to stop
 
 Here an example of how to use the L3SDKMarqueeView view.
 ```objectivec
-    //deinfes an UILabel
-    UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width, 0, self.view.bounds.size.width/2, 50)];
-    leftMarqueeLabel.textColor=[UIColor whiteColor];
-    leftMarqueeLabel.text=@"marquee scrolling to the left side";
-    leftMarqueeLabel.font=[UIFont fontWithName:@"Verdana" size:40];
-    [leftMarqueeLabel sizeToFit];
+//deinfes an UILabel
+UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:CGRectMake(
+                                                                  self.view.bounds.size.width,
+                                                                  0,
+                                                                  self.view.bounds.size.width/2,
+                                                                  50)];
+leftMarqueeLabel.textColor=[UIColor whiteColor];
+leftMarqueeLabel.text=@"marquee scrolling to the left side";
+leftMarqueeLabel.font=[UIFont fontWithName:@"Verdana" size:40];
+[leftMarqueeLabel sizeToFit];
 
-    //init a L3SDKMarqueeView instance with a label
-    self.leftMarqueeView=[[L3SDKMarqueeView alloc] initWithFrame:
-                      CGRectMake(0, self.view.bounds.size.height/4, self.view.bounds.size.width, 50)
-                                                  andContent:leftMarqueeLabel
-                                                andDirection:L3SDKMarqueeDirectionLeft
-                                                    andSpeed:0.5];
+//init a L3SDKMarqueeView instance with a label
+self.leftMarqueeView=[[L3SDKMarqueeView alloc] initWithFrame:
+                  CGRectMake(0, self.view.bounds.size.height/4, self.view.bounds.size.width, 50)
+                                              andContent:leftMarqueeLabel
+                                            andDirection:L3SDKMarqueeDirectionLeft
+                                                andSpeed:0.5];
     
-    self.leftMarqueeView.backgroundColor=[UIColor redColor];
-    [self.view addSubview:self.leftMarqueeView];
+self.leftMarqueeView.backgroundColor=[UIColor redColor];
+[self.view addSubview:self.leftMarqueeView];
 ```
