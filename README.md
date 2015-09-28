@@ -49,7 +49,7 @@ The L3SDKMarqueeView interface exposes also other two methods that allow to stop
 ```
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Marquee/master/screenshots/iOS-Marquee.gif)
 
-Here an example of how to use the L3SDKMarqueeView view.
+Here an example of how to use the L3SDKMarqueeView class.
 ```objectivec
 //deinfes an UILabel
 UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:
