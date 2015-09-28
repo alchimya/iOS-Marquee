@@ -10,7 +10,7 @@ you have to add this value.
 
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Marquee/master/screenshots/scroll.jpg)
 
-When the scrolling view will get to the limit of the right or left side of the grafic context (screen) 
+When the scrolling view will get to the limit of the right or left side of the graphic context (screen) 
 we have to move it to the opposite side of the scolling direction.
 
 ![ScreenShot](https://raw.github.com/alchimya/iOS-Marquee/master/screenshots/scroll_left.jpg)
