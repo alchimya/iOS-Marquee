@@ -52,11 +52,13 @@ The L3SDKMarqueeView interface exposes also other two methods that allow to stop
 Here an example of how to use the L3SDKMarqueeView view.
 ```objectivec
 //deinfes an UILabel
-UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:CGRectMake(
-                                                                  self.view.bounds.size.width,
-                                                                  0,
-                                                                  self.view.bounds.size.width/2,
-                                                                  50)];
+UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:
+                          CGRectMake(
+                                    self.view.bounds.size.width,
+                                    0,
+                                    self.view.bounds.size.width/2,
+                                    50)
+                          ];
 leftMarqueeLabel.textColor=[UIColor whiteColor];
 leftMarqueeLabel.text=@"marquee scrolling to the left side";
 leftMarqueeLabel.font=[UIFont fontWithName:@"Verdana" size:40];
