@@ -25,7 +25,13 @@
     [super viewDidLoad];
     
     //deinfes an UILabel
-    UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width, 0, self.view.bounds.size.width/2, 50)];
+    UILabel*leftMarqueeLabel=[[UILabel alloc]initWithFrame:
+                              CGRectMake(
+                                        self.view.bounds.size.width,
+                                        0,
+                                        self.view.bounds.size.width/2,
+                                        50)
+                              ];
     leftMarqueeLabel.textColor=[UIColor whiteColor];
     leftMarqueeLabel.text=@"marquee scrolling to the left side";
     leftMarqueeLabel.font=[UIFont fontWithName:@"Verdana" size:40];
@@ -43,7 +49,14 @@
     
     
     //deinfes an UILabel
-    UILabel*rightMarqueeLabel=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width/2, 50)];
+    UILabel*rightMarqueeLabel=[[UILabel alloc]initWithFrame:
+                               CGRectMake(
+                                          0,
+                                          0,
+                                          self.view.bounds.size.width/2,
+                                          50
+                                          )
+                               ];
     rightMarqueeLabel.textColor=[UIColor whiteColor];
     rightMarqueeLabel.text=@"marquee scrolling to the right side.";
     rightMarqueeLabel.font=[UIFont fontWithName:@"Verdana" size:40];

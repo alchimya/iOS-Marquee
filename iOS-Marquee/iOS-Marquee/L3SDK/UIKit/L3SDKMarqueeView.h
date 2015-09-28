@@ -24,7 +24,8 @@ typedef enum : NSUInteger {
 -(instancetype)initWithFrame:(CGRect)frame
                   andContent:(UIView*)content
                 andDirection:(L3SDKMarqueeDirection)direction
-                    andSpeed:(float)speed andAutoPlay:(BOOL)autoPlay;
+                    andSpeed:(float)speed
+                 andAutoPlay:(BOOL)autoPlay;
 
 //start scrolling animation
 -(void)play;
