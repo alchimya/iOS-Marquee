@@ -38,7 +38,7 @@ where:
 - <b>frame</b>:is the frame of the container marquee view.
 - <b>content</b>:is the view that you want to applay the scrolling. It, for instance, can be an UILabel,
 but also a view with subviews (e.g. UIImageView).
-- <b>direction</b>:the direction ofr the scroll and it can assume the values of L3SDKMarqueeDirectionRight or L3SDKMarqueeDirectionLeft.
+- <b>direction</b>:the direction of the scroll and it can assume the values of L3SDKMarqueeDirectionRight or L3SDKMarqueeDirectionLeft.
 - <b>speed</b>:is the scroll speed (duration of the view animation).
 <br/>
 <br/>
